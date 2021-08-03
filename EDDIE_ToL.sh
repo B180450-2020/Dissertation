@@ -1,6 +1,3 @@
-qlogin -l h_vmem=32G
-cd /exports/cmvm/eddie/sbms/groups/jhaas-Haas/Sylvia
-
 # BLAST v2.11.0 always has memory error, so use v2.9.0 to make BLAST database
 module load roslin/blast+/2.9.0	
 
